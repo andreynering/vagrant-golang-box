@@ -33,7 +33,7 @@ echo "Installing Gulp"
 npm install --global gulp-cli >/dev/null 2>&1
 
 echo "Downloading Go"
-curl --silent https://storage.googleapis.com/golang/go1.6.3.linux-amd64.tar.gz > /tmp/go.tar.gz
+curl --silent https://storage.googleapis.com/golang/go1.7.5.linux-amd64.tar.gz > /tmp/go.tar.gz
 echo "Extracting Go"
 tar -xvzf /tmp/go.tar.gz --directory /home/vagrant >/dev/null 2>&1
 echo "Setting Go environment variables"
